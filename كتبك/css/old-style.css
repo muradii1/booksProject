@@ -1,0 +1,239 @@
+@font-face {
+    font-family: ar-font;
+    src: url(../fonts/JFFlatregular.ttf);
+}
+
+body {
+    direction: rtl;
+    font-family: ar-font;
+   
+}
+nav.navbar ul.navbar-nav {
+    padding-right: 0;
+}
+nav.navbar ul.navbar-nav li a.nav-link {
+    color: #111111;
+    font-size: 16px;
+    line-height: 40px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+nav.navbar ul.navbar-nav li a.nav-link:hover, nav.navbar ul.navbar-nav li a.nav-link.active {
+    color: #16aeca;
+    background-color: #FAF0E6;
+}
+.navbar-brand img {
+    width: 20%;
+   
+}
+nav.navbar.noTransparrent {
+    background-color: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+nav.navbar.noTransparrent button.navbar-toggler {
+    margin: 30px auto;
+}
+
+nav.navbar.noTransparrent button.navbar-toggler span {
+    color: #16aeca;
+}
+
+nav.navbar.noTransparrent .navbar-brand img {
+    width: 20%;
+}
+
+
+.text-center{
+    text-align: center;
+    margin-bottom: 15px;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+ .custom-paragraph{
+    font-weight: normal;
+    font-size: 100%;
+    text-align: center;
+    margin: 10px 20%;
+}
+section.AboutUs{
+   background-color:#FFFFFF;
+   padding:100px 100px;
+   margin-top: 80px;
+}
+section.Publications{
+     background-color:#FAF0E6;
+     padding:40px 40px;
+}
+
+.custom-thumbnail {
+    border: 1px solid #EEEEEE;
+    padding: 0px;
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+.custom-thumbnail > img {
+  margin-right:0;
+    margin-left: 0;
+    width: 100%;
+}
+
+.custom-title{
+    font-weight: normal;
+    font-size: 100%;
+     margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.custom-btn-primary{
+    color: #A9A9A9;
+    background-color: white;
+    border: 1px solid #A9A9A9;
+    border-radius: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.custom-btn-primary:hover
+{
+    color: white;
+    background-color: #A9A9A9;
+   border: 0 solid #A9A9A9;
+}
+
+section.contacts{
+   background-color:#ffffff;
+   padding:100px 100px;
+}
+
+section.contacts .info ul{
+  padding-top:100px;
+}
+
+section.contacts .info ul li i{
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+section.descriptions .description{
+    padding: 70px 0;
+    border-bottom: 3px solid #FAF0E6;
+    margin-top: 200px;
+}
+
+section.descriptions .description .media .media-body h5 {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0px 20px;
+    margin-bottom: 50px;
+}
+section.descriptions .description .media .media-body p {
+    font-size: 18px;
+    line-height: 32px;
+   
+}
+section.descriptions .description .media img {
+    margin: 0 4rem;
+    height: 200px;
+    width: 200px;
+}
+
+section.slider {
+    background-color: #FAF0E6;
+    padding: 80px 0;
+    margin:200px 0;
+}
+section.slider2 {
+    background-color: #F0F8FF;
+    padding: 80px 0;
+    margin:200px 0;
+}
+
+section.slider .carousel-inner {
+    width: 100%;
+   
+}
+
+section.slider .carousel-inner .carousel-item{
+    width: 300px;
+    height: 300px;
+    margin: 0 400px;
+}
+section.slider .carousel-indicators {
+    padding: 0;
+    bottom: -60px;
+   
+}
+section.slider .carousel-indicators li {
+    max-width: 20px;
+    height: 20px;
+    border: 1px solid #aaaaaa;
+    border-radius: 30%;
+}
+section.slider .carousel-indicators li.active {
+    background-color: #aaaaaa;
+}
+section.slider .carousel-control-next, 
+section.slider .carousel-control-prev {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #aaaaaa;
+    border-radius: 30%;
+    color: #aaaaaa;
+    opacity: 1;
+    margin-top: 130px;
+}
+
+
+
+
+
+section.slider2 .carousel-inner {
+    width: 100%;
+   
+}
+
+section.slider2 .carousel-inner .carousel-item{
+    width: 300px;
+    height: 300px;
+    margin: 0 400px;
+}
+section.slider2 .carousel-indicators {
+    padding: 0;
+    bottom: -60px;
+   
+}
+section.slider2 .carousel-indicators li {
+    max-width: 20px;
+    height: 20px;
+    border: 1px solid #aaaaaa;
+    border-radius: 30%;
+}
+section.slider2 .carousel-indicators li.active {
+    background-color: #aaaaaa;
+}
+section.slider2 .carousel-control-next, 
+section.slider2 .carousel-control-prev {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #aaaaaa;
+    border-radius: 30%;
+    color: #aaaaaa;
+    opacity: 1;
+    margin-top: 130px;
+}
+
+
